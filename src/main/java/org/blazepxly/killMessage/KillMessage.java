@@ -81,13 +81,13 @@ public final class KillMessage extends JavaPlugin implements org.bukkit.event.Li
         playerMessageStyles.clear();
         ConfigurationSection templatesSection = getConfig().getConfigurationSection("kill-message");
         if (templatesSection != null) {
-            for (String key : templatesSection.getKeys(false)) {//BELAJAR FOR, INI APAAN DAH
+            for (String key : templatesSection.getKeys(false)) {
                 customMessages.put(key, templatesSection.getString(key));
             }
         }
 
         for (String uuidStr : getConfig().getStringList("data.players-actived")) {
-            playersActived.add(UUID.fromString(uuidStr)); // gapaham
+            playersActived.add(UUID.fromString(uuidStr));
         }
 
         ConfigurationSection stylesSection = getConfig().getConfigurationSection("data.player-styles");
