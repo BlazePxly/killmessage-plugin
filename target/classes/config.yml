@@ -1,0 +1,28 @@
+# ========================================= #
+#          Message Configuration            #
+# ========================================= #
+#
+# %killer%
+# %victim%
+kill-message:
+  vanish: §7☁ §c%victim% §7vanished into thin air... §a%killer% §7was behind it.
+  boom: §e☠ §a%killer% §7blew up §c%victim%'s dreams.
+  clean: §b✧ §a%killer% §7took out §c%victim% §7with surgical precision.
+  ghost: §8☠ §c%victim% §7was haunted and hunted by §a%killer%
+  thunder: §e⚡ §c%victim% §7got struck down by §a%killer%'s power
+  blink: §d⚑ §a%killer% §7eliminated §c%victim% §7in the blink of an eye
+  hunt: §6▶ §a%killer% §7tracked §c%victim% §7like a true hunter
+  shadow: §0☯ §c%victim% §7never saw the shadow of §a%killer%
+  rip: §4✖ §c%victim% §7has been RIP'd by §a%killer%
+  delete: §c⌫ §a%killer% §7deleted §c%victim% §7from the world.
+
+
+# ========================================= #
+#               DATA PLUGIN                 #
+#     (DONT TOUCH IF YOU DONT UNDERSTAND)   #
+# ========================================= #
+data:
+  players-actived:
+    - 069a79f4-44e9-4726-a5be-f310e5373b18
+  player-styles:
+    069a79f4-44e9-4726-a5be-f310e5373b18: pro

@@ -1,0 +1,18 @@
+name: KillMessage
+version: '1'
+main: org.blazepxly.killMessage.KillMessage
+api-version: '1.21'
+authors: [BlazePxly]
+description: Deathmessage plugin
+commands:
+  killmessage:
+    description: Manage KillMessage plugin
+    usage: /<command> [reload|set]
+    permission: killmessage.use
+permissions:
+  killmessage.use:
+    description: Command utama killmessage.
+    default: op
+  killmessage.reload:
+    description: Memberikan akses untuk menggunakan perintah /killmessage reload.
+    default: op

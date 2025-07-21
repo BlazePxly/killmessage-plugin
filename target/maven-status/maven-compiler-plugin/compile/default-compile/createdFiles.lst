@@ -1,0 +1,5 @@
+org\blazepxly\killMessage\command\placeholderExpansion.class
+org\blazepxly\killMessage\command\mainCommandTab.class
+org\blazepxly\killMessage\command\mainCommand.class
+org\blazepxly\killMessage\command\Listener.class
+org\blazepxly\killMessage\KillMessage.class
