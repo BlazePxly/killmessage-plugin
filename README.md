@@ -44,4 +44,4 @@ Set Killmessage style:
 
 # NOTE
 ## The developer is still learning.
-## If you have any advice, please contact me discord @blazepxly or https://discord.gg/Yma54mCRwz
+## If you have any advice, please contact me discord @blazepxly
